@@ -23,7 +23,7 @@ h2{
     text-align: center;
 }
 
-#skills{
+#skills, .family, #family-members, .facts{
     color: #5e6472;
     text-align: center;
     list-style: none;
