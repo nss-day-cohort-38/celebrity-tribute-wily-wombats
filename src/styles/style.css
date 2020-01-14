@@ -1,5 +1,19 @@
 
 /* NAV BAR */
+header {
+    /* We'll have to add: 
+        a margin-top: 30 or so px to .wrapper to get 
+        the fixed position to work*/
+    /* position: fixed;
+    top: 0; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5e6472;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 .logo {
     border: 5px solid #F88379;
@@ -10,41 +24,33 @@
 }
 
 .header-title {
+    width: 100%;
     color: #b8f2e6;
     font-weight: bolder;
-    font-size: 1.75em;
-    padding: 0 1em 0 1em;
-}
-
-header {
-    /* We'll have to add: 
-        a margin-top: 30 or so px to .wrapper to get 
-        the fixed position to work*/
-    /* position: fixed;
-    top: 0; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #5e6472;
-    width: 100%;
+    font-size: 2.25em;
+    padding: 0 .5em;
+    margin: .25em 0;
 }
 
 .main-nav {
-    padding: 0 1em 0 1em;
+    width: 100%;
+    padding: 0 .5em;
+    margin: 0;
 }
 
 .main-nav ul {
-    font-size: 1em;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 100%;
-
 }
 
-.main-nav li {
+.main-nav ul li {
     display: inline-block;
+    margin: 0 4px;
 }
 
 .main-nav li a {
@@ -62,4 +68,12 @@ header {
 .main-nav li a.active {
     background-color: #b8f2e6;
     color: #5e6472;
+  }
+
+  /* Media Queries  */
+
+@media (max-width: 975px) {
+    .header-title {
+        display: none;
+    }
   }
