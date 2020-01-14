@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* footer */
 
 #footer {
@@ -16,3 +17,56 @@
     width: 50px;
     height: 50px;
 }
+=======
+body{
+    background-color: #aed9e0;
+}
+
+.wrapper{
+    background-color: #faf3dd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    border: 10px solid #5e6472;
+    padding: 70px;
+    margin: 30px;
+    justify-content: center;
+}
+
+body, h3, .career-title{
+    color: #5e6472;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #f88379;
+    text-align: center;
+}
+
+#skills, .family, #family-members, .facts{
+    color: #5e6472;
+    text-align: center;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+img, figure{
+    max-width:50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 25px;
+
+}
+  
+  th, td, table {
+    height: 50px;
+    text-align: left;
+    border: 1px solid #5e6472;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+>>>>>>> master
