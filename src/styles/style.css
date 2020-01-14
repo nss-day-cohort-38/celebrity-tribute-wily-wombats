@@ -4,6 +4,13 @@ body{
 
 .wrapper{
     background-color: #faf3dd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1000px;
+    border: 10px solid #5e6472;
+    padding: 70px;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: row;
 }
 
 body{
@@ -12,4 +19,27 @@ body{
 
 h2{
     color: #f88379;
+}
+
+.pwb_starwars{
+    max-width:100%;
+    height:auto;
+}
+
+.pwb_fleabag{
+    max-width:50%;
+    height:auto;
+}
+
+.pwb_theatre{
+    max-width:50%;
+    height:auto;
+}
+.pwb_writer{
+    max-width:50%;
+    height:auto;
+}
+.pwb_award{
+    max-width:50%;
+    height:auto;
 }
