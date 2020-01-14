@@ -5,41 +5,38 @@ body{
 .wrapper{
     background-color: #faf3dd;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 1000px;
+    width: 70%;
     border: 10px solid #5e6472;
     padding: 70px;
-    margin: 0px;
+    margin: 30px;
     justify-content: center;
-    flex-direction: row;
 }
 
 body{
     color: #5e6472;
+    display: flex;
+    justify-content: center;
 }
 
 h2{
     color: #f88379;
+    text-align: center;
 }
 
-.pwb_starwars{
-    max-width:100%;
-    height:auto;
-}
-
-.pwb_fleabag{
+img{
     max-width:50%;
-    height:auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 25px;
 }
-
-.pwb_theatre{
-    max-width:50%;
-    height:auto;
-}
-.pwb_writer{
-    max-width:50%;
-    height:auto;
-}
-.pwb_award{
-    max-width:50%;
-    height:auto;
-}
+  
+  th, td {
+    height: 50px;
+    text-align: left;
+    border: 1px solid #5e6472;
+    padding: 5px;
+    text-align: left;
+  }
