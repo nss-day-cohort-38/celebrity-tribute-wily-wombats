@@ -3,15 +3,18 @@ body{
 }
 
 .wrapper{
+
     background-color: #faf3dd;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 70%;
     border: 10px solid #5e6472;
     padding: 70px;
-    margin: 30px;
+    margin: 100px 30px 30px 30px;
     justify-content: center;
 }
 
+
+/* body(not:.header and not:.footer) */
 h3, .career-title{
     color: #5e6472;
     display: flex;
@@ -52,11 +55,8 @@ img, figure{
 
 /* NAV BAR */
 header {
-    /* We'll have to add: 
-        a margin-top: 30 or so px to .wrapper to get 
-        the fixed position to work*/
-    /* position: fixed;
-    top: 0; */
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
