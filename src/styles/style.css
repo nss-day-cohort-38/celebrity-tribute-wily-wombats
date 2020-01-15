@@ -41,7 +41,7 @@ img, figure{
 
 }
   
-  th, td, table {
+  th, td{
     height: 50px;
     text-align: left;
     border: 1px solid #5e6472;
