@@ -5,6 +5,15 @@
     display: flex;
     justify-content: space-evenly;
     background-color:#5E6472;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
 }
 
 #imdbpng {
@@ -16,23 +25,25 @@
     width: 75px;
     height: 50px;
 }
+
+/* Body */
 body{
     background-color: #aed9e0;
+    display: flex;
+    justify-content: center;
 }
 
 .wrapper{
-
     background-color: #faf3dd;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 70%;
     border: 10px solid #5e6472;
     padding: 70px;
-    margin: 100px 30px 30px 30px;
+    margin: 100px 30px 100px 30px;
     justify-content: center;
 }
 
-/* body(not:.header and not:.footer) */
-body:not(.header), h1, h3, .career-title{
+h1, h3, .career-title{
     color: #5e6472;
     display: flex;
     justify-content: center;
