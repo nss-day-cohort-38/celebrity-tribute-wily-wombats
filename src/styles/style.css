@@ -13,9 +13,8 @@ body{
     justify-content: center;
 }
 
-
 /* body(not:.header and not:.footer) */
-h3, .career-title{
+body:not(.header), h1, h3, .career-title{
     color: #5e6472;
     display: flex;
     justify-content: center;
