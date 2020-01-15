@@ -30,7 +30,7 @@ body{
     justify-content: center;
 }
 
-body, h3, .career-title{
+h3, .career-title{
     color: #5e6472;
     display: flex;
     justify-content: center;
@@ -66,4 +66,85 @@ img, figure{
     padding: 5px;
     margin: 0 auto;
   }
+
+
+/* NAV BAR */
+header {
+    /* We'll have to add: 
+        a margin-top: 30 or so px to .wrapper to get 
+        the fixed position to work*/
+    /* position: fixed;
+    top: 0; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5e6472;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    border: 5px solid #F88379;
+    color: #F88379;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.header-title {
+    width: 100%;
+    color: #b8f2e6;
+    font-weight: bolder;
+    font-size: 2.25em;
+    padding: 0 .5em;
+    margin: .25em 0;
+}
+
+.main-nav {
+    width: 100%;
+    padding: 0 .5em;
+    margin: 0;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.main-nav li a {
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+.main-nav li a:hover:not(.active) {
+    background-color: #aed9e0;
+    color: #5e6472;
+  }
+
+.main-nav li a.active {
+    background-color: #b8f2e6;
+    color: #5e6472;
+  }
+
+  /* Media Queries  */
+
+@media (max-width: 975px) {
+    .header-title {
+        display: none;
+    }
+  }
+
 
