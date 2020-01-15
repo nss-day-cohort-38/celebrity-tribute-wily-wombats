@@ -5,6 +5,15 @@
     display: flex;
     justify-content: space-evenly;
     background-color:#5E6472;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
 }
 
 #imdbpng {
@@ -16,8 +25,12 @@
     width: 75px;
     height: 50px;
 }
+
+/* Body */
 body{
     background-color: #aed9e0;
+    display: flex;
+    justify-content: center;
 }
 
 .wrapper{
@@ -26,11 +39,11 @@ body{
     width: 70%;
     border: 10px solid #5e6472;
     padding: 70px;
-    margin: 30px;
+    margin: 100px 30px 100px 30px;
     justify-content: center;
 }
 
-h3, .career-title{
+h1, h3, .career-title{
     color: #5e6472;
     display: flex;
     justify-content: center;
@@ -70,11 +83,8 @@ img, figure{
 
 /* NAV BAR */
 header {
-    /* We'll have to add: 
-        a margin-top: 30 or so px to .wrapper to get 
-        the fixed position to work*/
-    /* position: fixed;
-    top: 0; */
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
