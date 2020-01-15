@@ -1,3 +1,21 @@
+/* footer */
+
+#footer {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#5E6472;
+}
+
+#imdbpng {
+    width: 75px;
+    height: 50px;
+}
+
+#wikipng {
+    width: 75px;
+    height: 50px;
+}
 body{
     background-color: #aed9e0;
 }
